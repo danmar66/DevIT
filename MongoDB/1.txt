@@ -1,0 +1,1 @@
+db.posts.find({_id: {$gt: 5}}).sort({author: 1})

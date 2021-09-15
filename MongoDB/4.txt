@@ -1,0 +1,6 @@
+db.posts.find({}, {title: 1}) - Список всех Title'ов
+
+db.posts.aggregate([
+    {$match: {}},
+    {$group: {_id: null, dislike: {$sum: "$dislike"}}}
+]) - Общее количество дизлайков 

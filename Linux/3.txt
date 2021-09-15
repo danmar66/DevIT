@@ -1,0 +1,2 @@
+1. cd /var/www/html/images - переходим в директорию images
+2. ls *.jpg либо ls | grep "[.]jpg$" - выводим список файлов с расширением .jpg
